@@ -1,0 +1,11 @@
+# Elder AI Companion - dependencies
+# No LangChain: plain Groq SDK calls are simpler to read, debug, and teach from.
+
+streamlit>=1.35.0
+groq>=1.5.0
+streamlit-mic-recorder>=0.0.8
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.9
+python-dotenv>=1.0.0
+scikit-learn>=1.4.0
+nltk>=3.8.0
