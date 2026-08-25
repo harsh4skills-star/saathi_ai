@@ -25,10 +25,10 @@ def get_client() -> Groq:
         _client = Groq(api_key=api_key)
     return _client
 
-
+#"llama-3.3-70b-versatile"
 def chat(
     messages: list[dict],
-    model: str = "llama-3.3-70b-versatile",
+    model: str = "openai/gpt-oss-120b",
     temperature: float = 0.7,
     max_retries: int = 2,
 ) -> str:
